@@ -1,0 +1,21 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+@import "_normalize.scss";
+@import "_layout.scss";
+//COMPONENTS
+@import "./components/_button.scss";
+@import "./components/_text.scss";
+@import "./components/_section.scss";
+@import "./components/_part.scss";
+//SECTIONS
+@import "./sections/_section_navigation.scss";
+
+
+*{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+body{
+    background: $color-gray;
+}

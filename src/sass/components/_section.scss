@@ -13,3 +13,16 @@ $font-brand: 'Source Sans Pro', sans-serif;
 $font-header: 'Source Sans Condensed', sans-serif;
 $font-paragraph: 'PT Sans Narrow', sans-serif;
 $font-logo: 'Kaushan Script', cursive;
+
+section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    left: 0;
+    margin: 15px;
+    padding: 20px 0 20px 0;
+    border-radius: 1px;
+    background: $color-light;
+}

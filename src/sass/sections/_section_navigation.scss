@@ -1,0 +1,63 @@
+$color-paragraph: #2c2c2c;
+$color-main: #ff7b00;
+$color-light: #ffffff;
+$color-gray: #e0e0e0;
+$color-dark-gray: #a5a5a5;
+$color-link: #50aefc;
+
+$font-size-option: 18px;
+$font-size-paragraph: 14px;
+$font-size-brand: 18px;
+
+$font-brand: 'Source Sans Pro', sans-serif;
+$font-header: 'Source Sans Condensed', sans-serif;
+$font-paragraph: 'PT Sans Narrow', sans-serif;
+$font-logo: 'Kaushan Script', cursive;
+
+nav{
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    background: $color-paragraph;
+    *{
+        color: $color-dark-gray;
+    }
+}
+.nav-brand{
+    position: relative;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    color: $color-light;
+    justify-content: space-evenly;
+    align-items: stretch;
+    font-family: $font-logo;
+    *{
+        color: $color-light;
+    }
+    i{
+        margin-left: 20px;
+    }
+}
+nav ul{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border-bottom: 1.5px solid $color-dark-gray;
+}
+nav li {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-btn{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+    padding: 20px;
+}
