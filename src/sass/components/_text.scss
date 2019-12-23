@@ -1,40 +1,39 @@
-$color-paragraph: #2c2c2c;
-$color-main: #ff7b00;
-$color-light: #ffffff;
-$color-gray: #e0e0e0;
-$color-dark-gray: #a5a5a5;
-$color-link: #50aefc;
-
-$font-size-option: 18px;
-$font-size-paragraph: 14px;
-$font-size-brand: 21px;
-
-$font-brand: 'Source Sans Pro', sans-serif;
-$font-header: 'Source Sans Condensed', sans-serif;
-$font-paragraph: 'PT Sans Narrow', sans-serif;
-
-h1,h2, h3, h4, h5, h6{
-    color: $color-dark-gray;
-    font-size: $font-size-brand;
-    font-family: $font-header;
-    font-weight: 200;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $color-dark-gray;
+  font-size: $font-size-brand;
+  font-family: $font-header;
+  font-weight: 200;
 }
-p{
-    color: $color-paragraph;
-    font-size: $font-size-paragraph;
-    font-family: $font-paragraph;
-    font-weight: 400;
+
+p {
+  color: $color-paragraph;
+  font-size: $font-size-paragraph;
+  font-family: $font-paragraph;
+  font-weight: 400;
 }
-li{
-    color: $color-dark-gray;
-    font-size: $font-size-option;
-    font-family: $font-paragraph;
-    font-weight: 400;
+
+li {
+  color: $color-dark-gray;
+  font-size: $font-size-option;
+  font-family: $font-paragraph;
+  font-weight: 400;
 }
-.link{
-    color: $color-link;
-    font-size: $font-size-paragraph;
-    font-family: $font-paragraph;
-    font-weight: 500;
-    text-decoration: underline;    
+
+span {
+  color: $color-dark-gray;
+  font-family: $font-brand;
+  font-weight: 600;
+}
+
+.link {
+  color: $color-link;
+  font-size: $font-size-paragraph;
+  font-family: $font-paragraph;
+  font-weight: 500;
+  text-decoration: underline;
 }

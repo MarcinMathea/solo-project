@@ -1,0 +1,19 @@
+.form-date {
+  display: flex;
+  position: relative;
+  padding: 5px;
+  border: 1px solid $color-gray;
+
+  :first-child {
+    border-right: 1.5px solid $color-gray;
+  }
+  
+  * {
+    border: none;
+    padding: 0 5px 0 5px;
+  }
+
+  i {
+    color: $color-dark-gray;
+  }
+}

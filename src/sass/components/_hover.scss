@@ -1,0 +1,18 @@
+.btn-nav:hover {
+  background: $color-dark-gray;
+  transition: all 0.3s ease-in-out;
+
+  a {
+    color: $color-light;
+    border-left: 10px solid $color-brand;
+  }
+
+  i {
+    color: $color-light;
+  }
+}
+
+.links-index:hover {
+  transition: all 0.3s ease-in-out;
+  background: $color-light-gray;
+}

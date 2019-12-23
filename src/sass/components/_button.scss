@@ -1,40 +1,38 @@
-$color-paragraph: #2c2c2c;
-$color-main: #ff7b00;
-$color-light: #ffffff;
-$color-gray: #e0e0e0;
-$color-dark-gray: #a5a5a5;
-
-$font-size-brand: 18px;
-$font-size-paragraph: 14px;
-$font-size-brand: 19px;
-
-$font-brand: 'Source Sans Pro', sans-serif;
-$font-header: 'Source Sans Condensed', sans-serif;
-$font-paragraph: 'PT Sans Narrow', sans-serif;
-
-.btn{
-    display: flex;
-    position: relative;
-    height: 50px;
-    width: 125px;
-    margin: 5px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    border: $color-paragraph;
-    border-radius: 5%;
-    font-family: $font-brand;
-    font-size: $font-size-paragraph;
+.btn {
+  display: flex;
+  position: relative;
+  height: 40px;
+  width: 45px;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: $color-paragraph;
+  border-radius: 5%;
+  font-family: $font-brand;
+  font-size: $font-size-brand;
 }
-.btn-nominal{
+
+.btn-nominal {
+  color: $color-light;
+  background: $color-brand;
+
+  * {
     color: $color-light;
-    background: $color-main;
+  }
 }
-.btn-gray{
-    color: $color-light;
-    background: $color-gray;
+
+.btn-gray {
+  color: $color-light;
+  background: $color-gray;
 }
-.btn-dark-gray{
-    color: $color-light;
-    background: $color-dark-gray;
+
+.btn-dark-gray {
+  color: $color-light;
+  background: $color-dark-gray;
+}
+
+.btn-nav {
+  transition: all 0.3s ease-in-out;
+  transition: border-width 0.6s linear;
 }

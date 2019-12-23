@@ -1,0 +1,10 @@
+.kontainer {
+  display: flex;
+  position: absolute;
+  height: 100%;
+  top: 50px;
+  right: 0;
+  padding-left: -15px;
+  float: right;
+  flex-direction: column;
+}

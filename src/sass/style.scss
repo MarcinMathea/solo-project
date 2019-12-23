@@ -5,17 +5,34 @@
 //COMPONENTS
 @import "./components/_button.scss";
 @import "./components/_text.scss";
+@import "./components/none-display.scss";
 @import "./components/_section.scss";
+@import "./components/_sub-section.scss";
+@import "./components/_links-index.scss";
 @import "./components/_part.scss";
+@import "./components/_kontainer.scss";
+@import "./components/separate-cont.scss";
+@import "./components/_title.scss";
+@import "./components/_keyframes.scss";
+@import "./components/_hover.scss";
+@import "./components/_paragraph.scss";
+@import "./components/_number.scss";
+@import "./components/_form.scss";
+@import "./components/_form_date.scss";
 //SECTIONS
 @import "./sections/_section_navigation.scss";
+@import "./sections/_section_top.scss";
 
-
-*{
-    list-style: none;
-    text-decoration: none;
-    color: black;
+* {
+  list-style: none;
+  text-decoration: none;
+  color: $color-paragraph;
+  margin: 0;
+  padding: 0;
 }
-body{
-    background: $color-gray;
+
+body {
+  background: $color-light-gray;
+  height: 100%;
+  width: 100%;
 }

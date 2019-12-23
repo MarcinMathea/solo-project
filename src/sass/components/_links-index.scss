@@ -1,0 +1,15 @@
+.links-index {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  transition: all 0.3s ease-in-out;
+
+  a {
+    align-self: flex-end;
+    padding-right: 30%;
+  }
+
+  span {
+    align-self: flex-start;
+  }
+}

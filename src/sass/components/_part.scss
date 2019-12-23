@@ -1,38 +1,8 @@
-$color-paragraph: #2c2c2c;
-$color-main: #ff7b00;
-$color-light: #ffffff;
-$color-gray: #e0e0e0;
-$color-dark-gray: #a5a5a5;
-$color-link: #50aefc;
-
-$font-size-brand: 18px;
-$font-size-paragraph: 14px;
-$font-size-brand: 18px;
-
-$font-brand: 'Source Sans Pro', sans-serif;
-$font-header: 'Source Sans Condensed', sans-serif;
-$font-paragraph: 'PT Sans Narrow', sans-serif;
-$font-logo: 'Kaushan Script', cursive;
-.part{
-    display: flex;
-    position: relative;
-    flex-direction: inherit;
-    align-items: center;
-    justify-content: space-between;
-    height: 100%;
-    width: 100%;
-    margin: 20px;
-    padding: 20px 200px 0 200px;
-    border-bottom: 1.5px solid $color-gray;
+.part {
+  border-bottom: 1.5px solid $color-gray;
 }
-.hor-part{
-    display: flex;
-    position: relative;
-    flex-direction: inherit;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 2px 0 2px;
-    padding: 5px;
-    border-left: 1.5px solid $color-gray;
-    border-right: 1.5px solid $color-gray;
+
+.hor-part {
+  border-left: 1.5px solid $color-gray;
+  border-right: 1.5px solid $color-gray;
 }
