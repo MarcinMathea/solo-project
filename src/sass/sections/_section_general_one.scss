@@ -1,0 +1,34 @@
+
+.general-statistic {
+  padding: 10px 0 10px 0;
+  border-bottom: 1px solid $color-gray;
+  margin: 10px 0 10px 20px;
+
+  :first-child {
+    color: $color-gray;
+  }
+}
+
+.earnings-title {
+  padding-left: 10px;
+}
+
+.chart-legend {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.chart-buttons {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  
+  p {
+    font-size: $font-size-paragraph;
+  }
+}

@@ -4,7 +4,8 @@ $color-light: #ffffff;
 $color-light-gray: #dddddd;
 $color-gray: #bebebe;
 $color-dark-gray: #636363;
-$color-link: #50aefc;
+$color-link: #50aaeb;
+$color-earn: #2fa12b;
 
 $font-size-option: 18px;
 $font-size-paragraph: 14px;
@@ -14,3 +15,15 @@ $font-brand: "Source Sans Pro", sans-serif;
 $font-header: "Source Sans Condensed", sans-serif;
 $font-paragraph: "PT Sans Narrow", sans-serif;
 $font-logo: "Kaushan Script", cursive;
+
+.color-link {
+  background: $color-link;
+}
+
+.color-earn {
+  background: $color-earn;
+}
+
+.color-brand {
+  background: $color-brand;
+}

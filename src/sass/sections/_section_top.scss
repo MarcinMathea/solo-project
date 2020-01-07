@@ -1,12 +1,11 @@
 .top {
-  display: flex;
+  display: relative;
   position: sticky;
   flex-wrap: wrap;
   flex-direction: row;
   overflow: hidden;
   top: 0;
-  height: 25px;
-  margin: 0;
+  height: 50px;
   padding: 0;
   border-bottom: 1px solid $color-gray;
   background-color: $color-light;
@@ -46,5 +45,5 @@
 }
 
 .top-tile{
-  height: 100%;
+  height: 50px;
 }

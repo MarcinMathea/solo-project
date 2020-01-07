@@ -4,7 +4,14 @@
   justify-content: flex-start;
   align-items: center;
   align-content: center;
-  width: 100%;
+  padding-left: 20px;
   height: 40px;
+  width: 100%;
   border-bottom: 1.5px solid $color-gray;
+}
+
+.title-no-border {
+  border: none;
+  padding: 20px;
+  margin: 40px 0 20px 0;
 }

@@ -2,16 +2,18 @@
 @import "_mixins.scss";
 @import "_normalize.scss";
 @import "_layout.scss";
+@import "_media_query.scss";
 //COMPONENTS
 @import "./components/_button.scss";
 @import "./components/_text.scss";
-@import "./components/none-display.scss";
+@import "./components/_none-display.scss";
 @import "./components/_section.scss";
 @import "./components/_sub-section.scss";
 @import "./components/_links-index.scss";
+@import "./components/_center-cont.scss";
 @import "./components/_part.scss";
 @import "./components/_kontainer.scss";
-@import "./components/separate-cont.scss";
+@import "./components/_separate-cont.scss";
 @import "./components/_title.scss";
 @import "./components/_keyframes.scss";
 @import "./components/_hover.scss";
@@ -19,9 +21,12 @@
 @import "./components/_number.scss";
 @import "./components/_form.scss";
 @import "./components/_form_date.scss";
+@import "./components/_overf.scss";
+@import "./components/_border.scss";
 //SECTIONS
 @import "./sections/_section_navigation.scss";
 @import "./sections/_section_top.scss";
+@import "./sections/_section_general_one.scss";
 
 * {
   list-style: none;
@@ -33,6 +38,5 @@
 
 body {
   background: $color-light-gray;
-  height: 100%;
-  width: 100%;
 }
+

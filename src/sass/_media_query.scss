@@ -1,0 +1,15 @@
+@media only screen and (max-width: 768px) {
+  .top {
+    bottom: 0;
+  }
+
+  .nav-side {
+    position: relative;
+    display: none;
+  }
+
+  .chart-buttons {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
