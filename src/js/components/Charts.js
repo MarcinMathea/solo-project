@@ -39,7 +39,12 @@ class Charts {
             }]
           },
           legend: {
-            display: false,
+            display: true,
+            labels: {
+              usePointStyle: true,
+              fontSize: 16,
+              padding: 15,
+            },
           }
         },
       });
@@ -47,4 +52,4 @@ class Charts {
     }
   }
   
-export default Charts;  
+export default Charts;

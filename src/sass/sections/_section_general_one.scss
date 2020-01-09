@@ -2,7 +2,7 @@
 .general-statistic {
   padding: 10px 0 10px 0;
   border-bottom: 1px solid $color-gray;
-  margin: 10px 0 10px 20px;
+  margin: 10px 15px 10px 20px;
 
   :first-child {
     color: $color-gray;
@@ -31,4 +31,8 @@
   p {
     font-size: $font-size-paragraph;
   }
+}
+
+.form-date {
+  margin: 10px;
 }
